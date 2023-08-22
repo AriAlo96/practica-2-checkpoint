@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url(./imgheader.png);
+    height: 9rem;
+    background-position: center;
+    background-size: contain;
+}
+
+h1 {
+    height: 3rem;
+    background-color: rgb(70, 66, 66);
+    color: aliceblue;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+nav {
+    background-color: rgb(70, 66, 66);
+    display: flex;
+    flex-direction: column;
+    width: 12rem;
+    height: 28rem;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0.5rem;
+    padding-bottom: 3rem;
+
+}
+
+.img-nav {
+    width: 4rem;
+    border-radius: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(70, 66, 66);
+    color: aliceblue;
+    text-align: center;
+    border-radius: 1rem;
+    padding: 2rem;
+    height: 23rem;
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.726);
+
+}
+
+.img-section {
+    width: 16rem;
+    height: 12rem;
+    object-position: center;
+    border-radius: 1rem
+}
+
+.button-section {
+    background-color: transparent;
+    color: aliceblue;
+    border-radius: 0.6rem;
+    border-color: aliceblue;
+    padding: 0.3rem;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    color: aliceblue;
+    height: 4rem;
+    margin-top: 0.5rem;
+
+}
+
+.a-footer {
+    background-color: rgb(70, 66, 66);
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+
+}
+
+@media only screen and (max-width: 768px) {
+    section {
+        height: 15rem;
+        width: 14rem;
+        margin-top: 1rem;
+    }
+
+    .img-section {
+        width: 13rem;
+        height: 9rem;
+    }
+
+    nav {
+        width: 10rem;
+        height: 20rem; 
+        padding-bottom: 2rem;
+    }
+    footer {
+        height: 8rem;  
+        margin-top: 2rem;
+    }
+}
